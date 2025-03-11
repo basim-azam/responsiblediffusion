@@ -15,20 +15,12 @@ The rapid advancement in **diffusion models** has enabled high-quality text-to-i
 - Using **knowledge distillation** and **concept whitening** for interpretable changes.
 - Ensuring **responsible AI** by mitigating biases in generated images.
 
----
-
-## **Features**
-✅ **Plug-and-play concept control** - Users can modify age, gender, and race dynamically.  
-✅ **Dual-space multi-facet control** - Combines concept whitening and knowledge distillation.  
-✅ **Intuitive UI** - Uses a **slider-based control** to progressively modify generated images.  
-✅ **Fair and responsible AI** - Prevents unintended biases in diffusion-based models.  
-✅ **ArXiv Paper, Code, and Interactive Demo** available for deeper exploration.
 
 ---
 
 ## **Demo**
 🔗 **Live Demo**: [Coming Soon](#)  
-🔗 **Project Page**: ([Plug and Play Control](https://basim-azam.github.io/))  
+🔗 **Project Page**: ([Plug and Play Control](https://basim-azam.github.io/responsiblediffusion/))  
 
 ---
 
