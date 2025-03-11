@@ -24,7 +24,7 @@ The rapid advancement in **diffusion models** has enabled high-quality text-to-i
 
 ---
 
-==Code will be made available soon.== 
+## Code will be made available soon.
 
 ## **BibTeX**
 If you use RIDD in your research, please cite:
