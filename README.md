@@ -37,7 +37,7 @@ The rapid advancement in **diffusion models** has enabled high-quality text-to-i
 
 ## **Demo**
 🔗 **Live Demo**: [Coming Soon](#)  
-🔗 **Project Page**: [View Here]([Plug and Play Control](https://basim-azam.github.io/))  
+🔗 **Project Page**: ([Plug and Play Control](https://basim-azam.github.io/))  
 
 ---
 
