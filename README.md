@@ -24,19 +24,7 @@ The rapid advancement in **diffusion models** has enabled high-quality text-to-i
 
 ---
 
-## **Installation**
-To run RIDD locally, follow these steps:
-
-### Clone the Repository
-```sh
-git clone https://github.com/yourusername/RIDD.git
-cd RIDD
-```
-
-### Intsall Dependencies
-```sh
-pip install -r requirements.txt
-```
+==Code will be made available soon.== 
 
 ## **BibTeX**
 If you use RIDD in your research, please cite:
