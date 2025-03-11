@@ -54,6 +54,7 @@ If you use RIDD in your research, please cite:
   year      = {2025},
   url       = {https://arxiv.org/abs/XXXX.XXXXX},
 }
+```
 
 ### Acknowledments
 We acknowledge contributions from
