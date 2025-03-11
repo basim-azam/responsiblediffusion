@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="RIDD provides plug-and-play, interpretable, and responsible text-to-image generation via dual-space multi-facet concept control.">
+  <meta name="keywords" content="RIDD, Text-to-Image, Responsible Generation, Interpretable, CVPR 2025, Diffusion Models">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plug-and-Play Interpretable Responsible T2I Generation | CVPR 2025</title>
+
+  <!-- Fonts & Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <!-- JavaScript Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+</nav>
+
+<!-- Hero Section: Title + Authors -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Plug-and-Play Interpretable Responsible Text-to-Image Generation</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://findanexpert.unimelb.edu.au/profile/1065421-basim-azam" target="_blank">Basim Azam</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://findanexpert.unimelb.edu.au/profile/1050019-naveed-akhtar" target="_blank">Naveed Akhtar</a><sup>1</sup>
+            </span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>The University of Melbourne</span>
+          </div>
+          <span class="author-block"><sup></sup>CVPR 2025</span>
+
+          <!-- Links to ArXiv, GitHub, Paper, and Code -->
+          <div class="publication-links" style="margin-top: 1.5rem;">
+            <span class="link-block">
+              <a href="https://arxiv.org/abs/XXXX.XXXXX" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                <span class="icon"><i class="ai ai-arxiv"></i></span>
+                <span>arXiv</span>
+              </a>
+            </span>
+            <span class="link-block">
+              <a href="https://github.com/yourusername/RIDD" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                <span class="icon"><i class="fab fa-github"></i></span>
+                <span>GitHub</span>
+              </a>
+            </span>
+            <span class="link-block">
+              <a href="./papers/RIDD_CVPR2025.pdf" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>Paper</span>
+              </a>
+            </span>
+            <span class="link-block">
+              <a href="https://yourdemo.com" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                <span class="icon"><i class="fas fa-code"></i></span>
+                <span>Code</span>
+              </a>
+            </span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Teaser Image -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body has-text-centered">
+      <img src="./static/images/cvpr_general_2-03.png" alt="Teaser Figure" style="max-width: 100%; border-radius: 8px;">
+      <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
+        RIDD provides ethical control and interpretable generation for text-to-image diffusion models.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<!-- Abstract Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Ethical issues around text-to-image (T2I) models demand a comprehensive control over the generative content. Existing techniques addressing these issues for responsible T2I models aim for the  generated content to be fair and safe (non-violent/explicit). However, these methods  remain bounded to handling the facets of responsibility concepts individually, while also lacking in interpretability. Moreover,  they often require alteration to the original model, which compromises the model performance. 
+            In this work, we propose a unique technique to enable  responsible T2I generation by simultaneously accounting for an  extensive range of concepts for fair and safe content generation in a scalable manner. The key idea is to distill the target T2I pipeline with an external plug-and-play mechanism that learns an interpretable composite responsible space for the desired concepts, conditioned on the target T2I pipeline. We use knowledge distillation and concept whitening to enable this. At inference, the learned space is utilized to modulate the generative content.
+            A typical T2I pipeline presents two plug-in points for our approach, namely; the text embedding space and the diffusion model latent space. We develop modules for both points and show the effectiveness of our approach with a range of strong results. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Results Carousel -->
+<!-- <section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+          <img src="./static/images/cvpr_diff_combined-03.png" alt="Diff Combined Figure" style="max-width: 100%;">
+        </div>
+        <div class="item">
+          <img src="./static/images/results_figure-01.png" alt="Results Figure" style="max-width: 100%;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+<!-- Concept Injection Slider -->
+<section class="section">
+  <div class="container">
+    <h1 class="title">Control Generation</h1>
+    <p class="subtitle">Use the slider below to progressively add concepts. The right panel shows changes across concept spaces (Age, Gender, and Race).</p>
+
+    <!-- Output Display -->
+    <div class="columns">
+      <div class="column is-half">
+        <img id="output-image" src="./static/images/a_photo_of_a_doctor_26.png" alt="Output Image" style="width: 100%; border-radius: 5px;">
+      </div>
+      <div class="column is-half">
+        <div id="concept-display" style="font-size: 1.5em; padding: 1rem; background: #f5f5f5; border-radius: 5px;">
+          <p><strong>Current Concepts:</strong></p>
+          <ul id="concept-list">
+            <li>Original</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Single Slider Control -->
+    <input type="range" id="concept-slider" class="slider is-fullwidth is-info" min="0" max="100" value="0" style="margin-top: 2rem;">
+  </div>
+</section>
+
+<!-- JavaScript -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const steps = [
+    { threshold: 16, src: "./static/images/a_photo_of_a_doctor_26.png", concepts: ["Original"] },
+    { threshold: 32, src: "./static/images/a_photo_of_a_doctor_26_ours_black.png", concepts: ["Race -> Black"] },
+    { threshold: 48, src: "./static/images/a_photo_of_a_doctor_26_ours_young.png", concepts: ["Age -> Young"] },
+    { threshold: 64, src: "./static/images/a_photo_of_a_doctor_26_ours.png", concepts: ["Gender -> Female"] },
+    { threshold: 82, src: "./static/images/a_photo_of_a_doctor_26_ours_young_female.png", concepts: ["Age -> Young", "Gender -> Female"] },
+    { threshold: 101, src: "./static/images/a_photo_of_a_doctor_26_ours_old_female_black.png", concepts: ["Age -> Old", "Gender -> Female", "Race -> Black"] }
+  ];
+
+  const slider = document.getElementById('concept-slider');
+  const outputImage = document.getElementById('output-image');
+  const conceptList = document.getElementById('concept-list');
+
+  function updateOutput(value) {
+    let selectedStep = steps[0];
+    for (let step of steps) {
+      if (value < step.threshold) {
+        selectedStep = step;
+        break;
+      }
+    }
+    outputImage.src = selectedStep.src;
+    conceptList.innerHTML = "";
+    selectedStep.concepts.forEach(concept => {
+      let li = document.createElement("li");
+      li.textContent = concept;
+      conceptList.appendChild(li);
+    });
+  }
+
+  updateOutput(slider.value);
+  slider.addEventListener('input', (e) => updateOutput(e.target.value));
+});
+</script>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>Website template borrowed from <a href="https://github.com/nerfies/nerfies.github.io" target="_blank">Nerfies</a>.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

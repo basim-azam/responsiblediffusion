@@ -1,30 +1,16 @@
-# RIDD: Plug-and-Play Interpretable Responsible Text-to-Image Generation | CVPR 2025
+# Nerfies
 
-![Teaser Image](docs/assets/teaser.png)
+This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-blue)](docs/papers/RIDD_CVPR2025.pdf)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/yourusername/RIDD)
-[![Demo](https://img.shields.io/badge/Demo-Video-red)](https://your-demo-url.com)
+If you find Nerfies useful for your work please cite:
+```
+@article{park2021nerfies
+  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
+  title     = {Nerfies: Deformable Neural Radiance Fields},
+  journal   = {ICCV},
+  year      = {2021},
+}
+```
 
-## 📝 Abstract
-Text-to-Image (T2I) diffusion models have raised significant concerns over fairness, bias, and safety.
-Existing responsible generation approaches target these issues individually and require modifications to the diffusion model.
-We propose **RIDD**, a plug-and-play solution using **concept whitening** and **knowledge distillation** to enable **interpretable and ethical image generation** without altering the original T2I pipeline.
-
-## 📜 Paper
-[📄 Read the Paper (PDF)](docs/papers/RIDD_CVPR2025.pdf)
-
-## 🔥 Key Contributions
-- **Plug-and-Play:** Works with any T2I model without retraining.
-- **Interpretable:** Uses concept whitening for transparency.
-- **Multi-Facet Control:** Balances fairness, safety, and bias removal.
-- **Scalable:** Works on large-scale diffusion models efficiently.
-
-## 📊 Results
-![Results](docs/assets/results.png)
-
-## 💾 Installation
-```bash
-git clone https://github.com/yourusername/RIDD.git
-cd RIDD
-pip install -r requirements.txt
+# Website License
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
