@@ -1,7 +1,7 @@
 # RIDD: Plug-and-Play Interpretable Responsible Text-to-Image Generation
 ## CVPR 2025 
 
-[![Project Page](https://img.shields.io/badge/Project%20Page-Link-blue)](https://basim-azam.github.io/) [![ArXiv](https://img.shields.io/badge/ArXiv-Paper-red)](https://arxiv.org/abs/XXXX.XXXXX)
+[![Project Page](https://img.shields.io/badge/Project%20Page-Link-blue)](https://basim-azam.github.io/responsiblediffusion/) [![ArXiv](https://img.shields.io/badge/ArXiv-Paper-red)](https://arxiv.org/abs/XXXX.XXXXX)
 
 RIDD introduces a novel **plug-and-play** framework for interpretable and responsible text-to-image (T2I) generation. Our approach **enables fine-grained control over generated images** by dynamically adjusting attributes such as **age, gender, and race** while maintaining fidelity and fairness in AI-generated content.
 
