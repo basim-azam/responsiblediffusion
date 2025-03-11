@@ -47,7 +47,8 @@ To run RIDD locally, follow these steps:
 ### Clone the Repository
 ```sh
 git clone https://github.com/yourusername/RIDD.git
-cd RIDD ```
+cd RIDD
+```
 
 ### Intsall Dependencies
 ```sh
