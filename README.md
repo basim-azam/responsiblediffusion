@@ -4,18 +4,6 @@ RIDD introduces a novel **plug-and-play** framework for interpretable and respon
 
 ![Teaser Image](./static/images/cvpr_general_2-03.png)
 
-## **Table of Contents**
-- [Introduction](#introduction)
-- [Features](#features)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Dataset](#dataset)
-- [Results](#results)
-- [BibTeX](#bibtex)
-- [Contributors](#contributors)
-- [License](#license)
-
 ---
 
 ## **Introduction**
@@ -55,14 +43,16 @@ cd RIDD
 pip install -r requirements.txt
 ```
 
-### BibTex
-If you use RIDD in your research , please Cite: 
+## **BibTeX**
+If you use RIDD in your research, please cite:
 
+```bibtex
 @inproceedings{azam2025ridd,
   author    = {Basim Azam and Naveed Akhtar},
   title     = {Plug-and-Play Interpretable Responsible Text-to-Image Generation via Dual-Space Multi-facet Concept Control},
-  booktitle = {CVPR},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year      = {2025},
+  url       = {https://arxiv.org/abs/XXXX.XXXXX},
 }
 
 ### Acknowledments
